@@ -73,8 +73,7 @@ A prototype wireframe of all 3 screens is provided as a guideline. You are free 
 Please feel free to refactor the LoginActivity and use any libraries/helper methods to make your life easier.
 
 ## How to Submit your solution:
- - Clone this repository
- - Create a public repo in github, bitbucket or a suitable alternative and provide a link to the repository.
+ - Zip up your solution, excluding any build artifacts to reduce the size, and email it back to our recruitment team.
  - Provide a readme in markdown which details how you solved the bugs in part A, and explains the structure of your solution in Part B and any libraries that you may have used.
 
 ## API Usage
