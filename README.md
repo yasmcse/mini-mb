@@ -21,7 +21,7 @@ The project includes the networking code and models to complete the task, you wi
 ## Part 1 - Login Screen…
 We would like to allow the user to enter their email address and password and login to our app.  Please design your screen according to the wireframes below:
 
-<img src="/images/login.png" alt="Login" width="200"/>
+<img src="/images/login.png" alt="Login" width="300"/>
 
 To login please use the endpoint and credentials below:
 ```
@@ -34,7 +34,7 @@ You can use `LoginRequest` to make your request and `LoginResponse to parse your
 ## Part 2 - Display Plan Value
 Once you have logged in, please create a simple screen that displays the user's `TotalPlanValue`.  Please design your screen according to the wireframe below:
 
-<img src="/images/accounts.png" alt="Accounts" width="200"/>
+<img src="/images/accounts.png" alt="Accounts" width="300"/>
 
 To retrieve this data please use the endpoint with an additional authorization header, replacing {BEARER_TOKEN_HERE} with the bearer token you retrieved when logging in:
 
