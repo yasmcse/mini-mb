@@ -1,12 +1,12 @@
 # Moneybox Technical Task
 
 ## The Brief…
-Create a screen that allows a user to login to their moneybox account and display their total plan value.
+Allow a user to login to their moneybox account and display their total plan value.
 
 **Duration: 2 hours**
 
 ## What we are looking for…
-- A fully working Android application
+- A working Android application that meets the criteria required
 - Clean coding style
 - Demonstration of architecture choices
 - UI considerations including validation
@@ -47,4 +47,8 @@ Header value: Bearer {BEARER_TOKEN_HERE}
 You can use the `AllProductsResponse` to parse this response and retrieve the plan value.
 
 ## How to submit your test…
-Please push your project to Github and invite android@moneyboxapp.com to view your project.
+Please push your project to Github and invite android@moneyboxapp.com to read your project.
+
+Once you have done that please let the people team know and we will review your project as soon as possible.
+
+We wish you all the best!
