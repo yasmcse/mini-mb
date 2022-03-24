@@ -8,12 +8,12 @@ Allow a user to login to their moneybox account and display their total plan val
 ## What we are looking for…
 - A working Android application that meets the criteria required
 - Clean coding style
-- Demonstration of architecture choices
-- UI considerations including validation
+- Demonstration of architecture decisions
+- UI considerations (including validation)
 - Unit Tests
 
 ## The Project…
-The project includes the networking code and models to complete the task, you will just need to integrate them and implement the logic.
+The project includes the networking code and models needed to complete the task, you will just need to integrate them and implement the logic.
 
 - The `networking/Networking` class contains the **OkHttp** and **Retrofit** instances with the required headers for an unauthenticated request.
 - The `models` package contains the request and response models with all the fields required to complete the task.
@@ -26,6 +26,7 @@ Create a screen that allows the user to enter their email address and password a
 To login please use the endpoint and credentials below:
 ```
 Endpoint: @POST("users/login")
+
 Email: jaeren+androidtest@moneyboxapp.com
 Password: P455word12
 ```
@@ -40,15 +41,15 @@ To retrieve this data please use the endpoint below with an additional authoriza
 
 ```
 Endpoint: @GET("investorproducts")
+
 Header name: Authorization
 Header value: Bearer {BEARER_TOKEN_HERE}
-
 ```
 You can use the `AllProductsResponse` to parse this response and retrieve the plan value.
 
 ## How to submit your test…
-Please push your project to Github and invite android@moneyboxapp.com to read your project.
+Please push your project to a provide Github repository and invite android@moneyboxapp.com to read your project.
 
-Once you have done that please let the people team know and we will review your project as soon as possible.
+Once sent please let the people team know and we will review your project as soon as possible.
 
 We wish you all the best!
