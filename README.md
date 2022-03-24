@@ -37,7 +37,7 @@ Create a simple screen that displays after a user has logged in and displays the
 
 <img src="/images/accounts.png" alt="Accounts" width="300"/>
 
-To retrieve this data please use the endpoint below with an additional authorization header, replacing {BEARER_TOKEN_HERE} with the bearer token you retrieved when logging in:
+To retrieve this data please use the endpoint below with an additional authorization header, replacing `{BEARER_TOKEN_HERE}` with the bearer token you retrieved from the login response.
 
 ```
 Endpoint: @GET("investorproducts")
@@ -47,7 +47,7 @@ Header value: Bearer {BEARER_TOKEN_HERE}
 ```
 You can use the `AllProductsResponse` to parse this response and retrieve the plan value.
 
-## How to submit your test…
+## Submitting your test…
 Please push your project to a provide Github repository and invite android@moneyboxapp.com to read your project.
 
 Once sent please let the people team know and we will review your project as soon as possible.
