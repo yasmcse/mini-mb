@@ -15,7 +15,7 @@ Create a screen that allows a user to login to their moneybox account and displa
 ## The Project…
 The project includes the networking code and models to complete the task, you will just need to integrate them and implement the logic.
 
-- The `Networking` class contains the **OkHttp** and **Retrofit** instances with the required headers for an unauthenticated request.
+- The `networking/Networking` class contains the **OkHttp** and **Retrofit** instances with the required headers for an unauthenticated request.
 - The `models` package contains the request and response models with all the fields required for the rest of the task.
 
 ## Part 1 - Login Screen…
