@@ -53,3 +53,11 @@ Please push your project to a provide Github repository and invite android@money
 Once sent please let the people team know and we will review your project as soon as possible.
 
 We wish you all the best!
+
+Solution Notes
+--------------
+
+Please see the /docs/MoneyBox-Docs.docx for a description of the solution and the decisions made.
+Images of the running app are in the /images/AppImages folder.
+
+

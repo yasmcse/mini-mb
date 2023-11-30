@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_cant_be_blank">The email can not be blank</string>
+    <string name="not_a_valid_email">That\'s not a valid email</string>
+    <string name="password_should_be_atleast_eight_chars">Password should be atleast 8 characters</string>
+    <string name="password_should_contain_atleast_one_letter_and_digit">Password should contain atleast one letter and digit</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOG IN</string>
+    <string name="visible">VISIBLE</string>
+    <string name="trying_to_login">Trying to login</string>
+</resources>

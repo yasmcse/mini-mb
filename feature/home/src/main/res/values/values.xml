@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="portfolio_loading">Loading Your portfolio</string>
+    <string name="plan_value">Plan Value</string>
+    <string name="money_box">Money Box</string>
+</resources>

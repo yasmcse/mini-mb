@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back_arrow">Back</string>
+    <string name="no_internet">No Internet connection</string>
+    <string name="total_plan_value">Total Plan Value</string>
+    <string name="portfolio">Portfolio</string>
+</resources>
