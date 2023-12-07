@@ -22,9 +22,14 @@ class HomeViewModel @Inject constructor(
     @CommonModule.Feature private val dispatcher: DispatcherProvider
 ) : ViewModel() {
 
-    private val _products: MutableStateFlow<NetworkResult<AllProducts>> = MutableStateFlow<NetworkResult<AllProducts>>(NetworkResult.Loading)
+    private val _products: MutableStateFlow<NetworkResult<AllProducts>> =
+        MutableStateFlow(NetworkResult.Loading)
     val products: StateFlow<NetworkResult<AllProducts>> =
-        _products.asStateFlow()
+        _products.asStateFlow().stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5000),
+            initialValue = NetworkResult.NoState
+        )
 
     fun getInvestorProducts() =
         viewModelScope.launch(dispatcher.default) {
